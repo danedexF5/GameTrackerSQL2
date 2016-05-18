@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h1>Game Tracker Home</h1>
+
+<p><a href="/create-game">Create Game</a></p>
+
+{{^games}}
+    <p>You have no games</p>
+{{/games}}
+
+<ol>
+    {{#games}}
+        <li>{{name}} | <a href="/edit-game?id={{id}}">Edit</a> | <a href="/delete-game?id={{id}}">Delete</a> </li>
+    {{/games}}
+</ol>
+
+</body>
+</html>

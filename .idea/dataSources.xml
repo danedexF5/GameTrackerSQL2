@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2306789255">
+    <data-source source="LOCAL" name="H2 - main" uuid="23204b74-0dd2-4a26-bb6c-c29a949f1c72">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2: tcp://192.168.52.107:9092/main</jdbc-url>
+    </data-source>
+  </component>
+</project>
